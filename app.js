@@ -1,11 +1,14 @@
-let form = prompt("do u want to Login or Sign up / Changepassword ?")
+let form = prompt("do u want to Login or Signup / Changepassword ?")
+
+
+
 
 
 
 // ^ Name :
 
 
-if (form == "ok") {
+if (form == "Signup") {
     let name1 = prompt("type your name here")
 // * name lenght
     while (name1.split(" ").join("").length < 5) {
@@ -59,5 +62,27 @@ while ((ageUser.includes(" ")) || (ageUser == "") || (ageUser.length >= 3) || (a
 }
 
 console.log(ageUser);
+
+// ! Password
+
+let password = prompt("enter your password here !")
+
+while (password.includes("*")== false) {
+    password = prompt("enter your password here ! AGAIN")
+}
+
+
+let confirmpassword = prompt("confirm your password")
+
+while (confirmpassword != password) {
+    prompt("yo5alif")
+}
+} if (form == "Login") {
+    
+
+
+
+
+
 
 }
