@@ -14,14 +14,9 @@
 
             # Email:
             - Ensure the email is unique.
-            # Age:
-            - Check for leading, trailing, or middle spaces.
-            - Verify that only digits are entered.
-            - Do not save the Age if it has 0 characters, or if it has 3 characters or more.
+            # Age: DONE
 
             # Password:
-            - Check for leading or trailing spaces.
-            - Do not save the Password if it has spaces in the middle.
             - Require at least one special character from the set: ["@", "#", "-", "+", "*", "/"].
             - Require at least 7 characters to confirm the password.
 

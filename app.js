@@ -48,4 +48,16 @@ while (email2 =! email.includes("@")) {
 
 
 
+// ! AGE 
+
+let ageUser = prompt('please entre your age')
+while ((ageUser.includes(" ")) || (ageUser == "") || (ageUser.length >= 3) || (ageUser == 0) || (isNaN(ageUser))) {
+    ageUser = prompt('try again')
+    // if (isNaN(ageUser)) {
+    //     ageUser = prompt('try again')
+    // }
+}
+
+console.log(ageUser);
+
 }
